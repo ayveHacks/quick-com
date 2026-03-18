@@ -7,6 +7,7 @@ Protecting Quick Commerce Delivery Partners from Income Loss
   <img src="https://img.shields.io/badge/Phase-1-blue" />
   <img src="https://img.shields.io/badge/Domain-InsurTech-orange" />
   <img src="https://img.shields.io/badge/Model-Parametric-green" />
+  <img src="https://img.shields.io/badge/UX-Zero--Touch-success" />
 </p>
 
 ---
@@ -24,15 +25,28 @@ These disruptions are **unpredictable and uncontrollable**, yet workers have **n
 
 ---
 
+## 🚫 What We DON'T Cover (Strict Rule Compliance)
+
+As per problem constraints, this platform strictly excludes:
+
+- Health Insurance  
+- Life Insurance  
+- Accident Coverage  
+- Vehicle Repairs  
+
+We focus **only on income loss protection**.
+
+---
+
 ## 💡 Solution
 
-We propose an **AI-powered parametric insurance platform** where:
+We propose an **AI-powered parametric insurance platform** with:
 
-✅ No manual claims are required  
-✅ Real-time external data is monitored  
-✅ Payouts are automatically triggered  
+✅ Zero-Touch Payout System  
+✅ Real-time disruption monitoring  
+✅ Weekly-based insurance model  
 
-This ensures **fast, transparent, and reliable compensation** for gig workers.
+No manual claims. No delays. Just **instant compensation**.
 
 ---
 
@@ -54,62 +68,106 @@ This ensures **fast, transparent, and reliable compensation** for gig workers.
 
 1. Delivery partner registers via mobile app  
 2. Worker profile, location, and income data collected  
-3. AI engine calculates:
-   - Risk score  
-   - Exposure score  
-   - Reliability score  
-4. Weekly premium and coverage generated  
-5. Policy activated (7-day cycle)  
+3. AI engine computes risk and reliability  
+4. Weekly premium & coverage generated  
+5. Policy activated for **7-day cycle**  
+6. System continuously monitors disruptions  
+7. If conditions met → **Zero-Touch Payout triggered**
 
 ---
 
-### 📡 Disruption Monitoring
+## 📡 Disruption Monitoring
 
-- System continuously monitors:
-  - Weather API  
-  - AQI API  
-  - Traffic API  
-  - Flood API  
-  - News API  
+- Weather API  
+- AQI API  
+- Traffic API  
+- Flood API  
+- News API  
 
-- If disruption detected → event tracking begins  
+System checks every **15 minutes** for disruptions.
 
 ---
 
-### 📊 Claim Evaluation
+## 📊 Claim Evaluation Logic
 
-- Worker activity data retrieved  
-- Work loss ratio calculated  
+- Worker activity retrieved from platform  
+- Work Loss Ratio computed  
 
 WorkLossRatio = (ExpectedOrders - ActualOrders) / ExpectedOrders  
 
 - If WorkLossRatio ≥ 0.5 → Claim Approved  
-- Otherwise → Claim Rejected  
+- Else → Claim Rejected  
 
 ---
 
-### 💰 Payout System
+## 💰 Zero-Touch Payout System
 
-- Approved claims → instant payout via UPI  
-- Dashboard updated in real-time  
+- No manual claim filing  
+- Automatic payout via UPI  
+- Instant dashboard update  
 
 ---
 
 ## 🚀 Key Features
 
-- Dynamic weekly premium calculation  
+- Weekly pricing aligned with gig economy  
+- Dynamic premium calculation  
 - Real-time disruption detection  
-- Automated claim triggering (zero-touch)  
-- Fraud detection using activity validation  
-- Instant payout processing  
+- Zero-touch claim & payout system  
+- Fraud-resistant claim validation  
 
 ---
 
 ## 🤖 AI/ML Integration
 
-- Risk prediction based on historical disruption patterns  
-- Dynamic pricing using zone-level risk  
-- Fraud detection via anomaly detection  
+- Risk prediction using historical disruption patterns  
+- Dynamic pricing using zone-level data  
+- Fraud detection via anomaly detection:
+  - GPS spoofing detection  
+  - Fake disruption claim detection  
+
+---
+
+## 🧮 Mathematical Framework
+
+### 1. Risk & Exposure Modeling
+
+Risk Score:
+RiskScore = Σ (Pᵢ × Wᵢ)
+
+Exposure Score:
+ES = (Σ Pᵢ) / N
+
+---
+
+### 2. Reliability Score (RS)
+
+RS = (ActivityScore + CompletionScore + WorkHistoryScore + FraudScore) / 4
+
+FraudScore = 1 - FraudFlags  
+
+---
+
+### 3. Weekly Financial Model (Core Innovation)
+
+Coverage Factor (CF):
+CF = 0.3 + 0.2 × RS + 0.1 × ES  
+
+(Protects 30% – 70% of weekly income)
+
+Weekly Premium:
+Premium = WeeklyIncome × CF × BaseRate × (1 + RiskScore)
+
+---
+
+### 4. Payout Logic
+
+If WorkLossRatio ≥ 0.5:
+
+Final Payout = DailyIncome × PayoutPercent × DurationFactor  
+
+Where:
+DurationFactor = DisruptionHours / 24  
 
 ---
 
@@ -138,4 +196,4 @@ parametric-insurance/
 
 ## 🎯 Vision
 
-To build a **scalable, automated financial safety net** for gig workers, ensuring **income stability during real-world disruptions**.
+To build a **scalable, automated financial safety net** for gig workers using **data-driven parametric insurance principles**.
