@@ -1,4 +1,4 @@
-<h1 align="center">🚀 AI-Powered Parametric Insurance Platform</h1>
+<h1 align="center">AI-Powered Parametric Insurance Platform</h1>
 <p align="center">
 Protecting Quick Commerce Delivery Partners from Income Loss
 </p>
@@ -7,50 +7,44 @@ Protecting Quick Commerce Delivery Partners from Income Loss
   <img src="https://img.shields.io/badge/Phase-1-blue" />
   <img src="https://img.shields.io/badge/Domain-InsurTech-orange" />
   <img src="https://img.shields.io/badge/Model-Parametric-green" />
-  <img src="https://img.shields.io/badge/UX-Zero--Touch-success" />
 </p>
 
 ---
 
-## 📌 Problem
+## Problem
 
-Delivery partners in quick commerce platforms (Blinkit, Zepto, etc.) face **income loss due to external disruptions** such as:
+Delivery partners in quick commerce platforms (Blinkit, Zepto, etc.) face income loss due to external disruptions such as heavy rain, traffic congestion, extreme heat, and platform outages.
 
-- Heavy rain 🌧️  
-- Traffic congestion 🚗  
-- Extreme heat 🌡️  
-- Platform/server outages ⚠️  
-
-These disruptions are **unpredictable and uncontrollable**, yet workers have **no structured income protection system**.
+These disruptions are unpredictable and uncontrollable, yet workers have no structured income protection system.
 
 ---
 
-## 🚫 What We DON'T Cover (Strict Rule Compliance)
+## What We Don't Cover
 
 As per problem constraints, this platform strictly excludes:
 
-- Health Insurance  
-- Life Insurance  
-- Accident Coverage  
-- Vehicle Repairs  
+- Health insurance  
+- Life insurance  
+- Accident coverage  
+- Vehicle repairs  
 
-We focus **only on income loss protection**.
-
----
-
-## 💡 Solution
-
-We propose an **AI-powered parametric insurance platform** with:
-
-✅ Zero-Touch Payout System  
-✅ Real-time disruption monitoring  
-✅ Weekly-based insurance model  
-
-No manual claims. No delays. Just **instant compensation**.
+The system focuses only on income loss protection.
 
 ---
 
-## 🧠 System Architecture
+## Solution
+
+We propose a parametric insurance platform with a zero-touch payout system.
+
+- Real-time external data is monitored  
+- No manual claims are required  
+- Payouts are automatically triggered  
+
+This ensures fast, transparent, and reliable compensation.
+
+---
+
+## System Architecture
 
 <p align="center">
   <img src="docs/architecture.png" width="700"/>
@@ -58,120 +52,112 @@ No manual claims. No delays. Just **instant compensation**.
 
 ---
 
-## ⚙️ Workflow
+## Workflow
 
 <p align="center">
   <img src="docs/workflow.png" width="700"/>
 </p>
 
-### 🔄 Flow Summary
+### Flow Summary
 
-1. Delivery partner registers via mobile app  
-2. Worker profile, location, and income data collected  
-3. AI engine computes risk and reliability  
-4. Weekly premium & coverage generated  
-5. Policy activated for **7-day cycle**  
-6. System continuously monitors disruptions  
-7. If conditions met → **Zero-Touch Payout triggered**
+1. Worker registers and provides profile and income data  
+2. System computes risk and reliability scores  
+3. Weekly premium and coverage are generated  
+4. Policy is activated for a 7-day cycle  
+5. System monitors real-time disruptions  
+6. If conditions are satisfied, payout is triggered automatically  
 
 ---
 
-## 📡 Disruption Monitoring
+## Disruption Monitoring
+
+The system continuously monitors:
 
 - Weather API  
 - AQI API  
 - Traffic API  
-- Flood API  
-- News API  
+- Flood alerts  
+- News signals  
 
-System checks every **15 minutes** for disruptions.
+Monitoring frequency: every 15 minutes.
 
 ---
 
-## 📊 Claim Evaluation Logic
-
-- Worker activity retrieved from platform  
-- Work Loss Ratio computed  
+## Claim Evaluation Logic
 
 WorkLossRatio = (ExpectedOrders - ActualOrders) / ExpectedOrders  
 
-- If WorkLossRatio ≥ 0.5 → Claim Approved  
-- Else → Claim Rejected  
+- If WorkLossRatio ≥ 0.5 → Claim approved  
+- Otherwise → Claim rejected  
 
 ---
 
-## 💰 Zero-Touch Payout System
+## Payout System
 
-- No manual claim filing  
-- Automatic payout via UPI  
-- Instant dashboard update  
+- Zero-touch claim processing  
+- Instant payout via UPI (simulated)  
+- Real-time dashboard updates  
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - Weekly pricing aligned with gig economy  
 - Dynamic premium calculation  
 - Real-time disruption detection  
-- Zero-touch claim & payout system  
-- Fraud-resistant claim validation  
+- Automated claim triggering  
+- Fraud-resistant validation  
 
 ---
 
-## 🤖 AI/ML Integration
+## AI/ML Integration
 
-- Risk prediction using historical disruption patterns  
-- Dynamic pricing using zone-level data  
-- Fraud detection via anomaly detection:
+- Risk prediction using historical disruption data  
+- Dynamic pricing based on zone-level patterns  
+- Fraud detection using anomaly detection:
   - GPS spoofing detection  
   - Fake disruption claim detection  
 
 ---
 
-## 🧮 Mathematical Framework
+## Mathematical Framework
 
-### 1. Risk & Exposure Modeling
+### Risk and Exposure
 
-Risk Score:
-RiskScore = Σ (Pᵢ × Wᵢ)
-
-Exposure Score:
-ES = (Σ Pᵢ) / N
+RiskScore = Σ (Pᵢ × Wᵢ)  
+ES = (Σ Pᵢ) / N  
 
 ---
 
-### 2. Reliability Score (RS)
+### Reliability Score
 
-RS = (ActivityScore + CompletionScore + WorkHistoryScore + FraudScore) / 4
+RS = (ActivityScore + CompletionScore + WorkHistoryScore + FraudScore) / 4  
 
 FraudScore = 1 - FraudFlags  
 
 ---
 
-### 3. Weekly Financial Model (Core Innovation)
+### Weekly Financial Model
 
-Coverage Factor (CF):
+CoverageFactor (CF):  
 CF = 0.3 + 0.2 × RS + 0.1 × ES  
 
-(Protects 30% – 70% of weekly income)
-
-Weekly Premium:
-Premium = WeeklyIncome × CF × BaseRate × (1 + RiskScore)
+Weekly Premium:  
+Premium = WeeklyIncome × CF × BaseRate × (1 + RiskScore)  
 
 ---
 
-### 4. Payout Logic
+### Payout Logic
 
 If WorkLossRatio ≥ 0.5:
 
 Final Payout = DailyIncome × PayoutPercent × DurationFactor  
 
-Where:
 DurationFactor = DisruptionHours / 24  
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer       | Technology |
 |------------|-----------|
@@ -183,17 +169,18 @@ DurationFactor = DisruptionHours / 24
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 parametric-insurance/
-├── docs/              
-├── src/               
-├── backend/           
-├── frontend/          
-├── README.md          
+├── docs/  
+├── src/  
+├── backend/  
+├── frontend/  
+├── README.md  
 
 ---
 
-## 🎯 Vision
+## Vision
 
-To build a **scalable, automated financial safety net** for gig workers using **data-driven parametric insurance principles**.
+To build a scalable, automated financial safety net for gig workers using data-driven parametric insurance principles.
+
