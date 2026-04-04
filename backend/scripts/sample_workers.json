@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Aarav Singh",
+    "age": 27,
+    "phone": "9000000001",
+    "delivery_platform": "Blinkit",
+    "worker_id": "BLK-MUM-001",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "zone": "Andheri-West",
+    "weekly_income": 7800,
+    "experience_months": 18,
+    "avg_orders_per_hour": 3.3,
+    "working_hours_per_day": 9,
+    "gps_permission": true,
+    "upi_id": "aarav@upi"
+  },
+  {
+    "name": "Isha Mehta",
+    "age": 31,
+    "phone": "9000000002",
+    "delivery_platform": "Zepto",
+    "worker_id": "ZPT-BLR-004",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "zone": "Koramangala",
+    "weekly_income": 9100,
+    "experience_months": 28,
+    "avg_orders_per_hour": 3.8,
+    "working_hours_per_day": 8.5,
+    "gps_permission": true,
+    "upi_id": "isha@oksbi"
+  },
+  {
+    "name": "Rohan Das",
+    "age": 24,
+    "phone": "9000000003",
+    "delivery_platform": "Instamart",
+    "worker_id": "INS-KOL-003",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "zone": "Salt-Lake",
+    "weekly_income": 6900,
+    "experience_months": 9,
+    "avg_orders_per_hour": 2.9,
+    "working_hours_per_day": 10,
+    "gps_permission": true,
+    "upi_id": "rohan@okicici"
+  }
+]
+

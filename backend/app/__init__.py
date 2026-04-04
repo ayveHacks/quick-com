@@ -1,0 +1,2 @@
+"""GigProtect AI backend package."""
+
