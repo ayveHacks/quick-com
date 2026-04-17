@@ -1,0 +1,23 @@
+{
+  "name": "gigprotect-ai",
+  "version": "1.0.0",
+  "description": "AI-powered parametric insurance platform for delivery partners",
+  "scripts": {
+    "build": "cd frontend && npm ci && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "start": "cd frontend && npm start",
+    "lint": "cd frontend && npm run lint"
+  },
+  "dependencies": {
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "@types/react": "^18.3.21",
+    "@types/react-dom": "^18.3.6",
+    "typescript": "^5.8.3"
+  },
+  "private": true
+}
