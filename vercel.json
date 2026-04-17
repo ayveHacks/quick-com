@@ -1,5 +1,4 @@
 {
-  "framework": "nextjs",
   "experimentalServices": {
     "frontend": {
       "framework": "nextjs",
