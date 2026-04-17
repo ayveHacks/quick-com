@@ -1,4 +1,6 @@
 {
+  "framework": "nextjs",
+  "rootDirectory": "frontend",
   "experimentalServices": {
     "frontend": {
       "framework": "nextjs",
