@@ -1,0 +1,36 @@
+services:
+  - type: web
+    name: gigprotect-frontend
+    env: node
+    buildCommand: cd frontend && npm install && npm run build
+    startCommand: cd frontend && npm start
+    envVars:
+      - key: NEXT_PUBLIC_API_BASE_URL
+        value: https://gigprotect-backend.onrender.com/api/v1
+    routes:
+      - path: /
+        destination: /
+  
+  - type: web
+    name: gigprotect-backend
+    env: python
+    plan: starter
+    pythonVersion: 3.11
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port 8000
+    envVars:
+      - key: MONGODB_URI
+        fromDatabase:
+          name: mongodb
+          property: connectionString
+      - key: MONGODB_DB
+        value: gigprotect_ai
+      - key: SCHEDULER_ENABLED
+        value: "true"
+      - key: SCHEDULER_INTERVAL_MINUTES
+        value: "15"
+
+databases:
+  - name: mongodb
+    databaseName: gigprotect_ai
+    plan: starter
