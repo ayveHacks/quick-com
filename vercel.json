@@ -2,7 +2,6 @@
   "experimentalServices": {
     "frontend": {
       "framework": "nextjs",
-      "rootDirectory": "frontend",
       "routePrefix": "/"
     },
     "backend": {
