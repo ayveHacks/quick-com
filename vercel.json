@@ -1,10 +1,13 @@
 {
   "experimentalServices": {
     "frontend": {
+      "framework": "nextjs",
+      "rootDirectory": "frontend",
       "routePrefix": "/"
     },
     "backend": {
-      "entrypoint": "backend",
+      "entrypoint": "backend/app/main.py",
+      "runtime": "python@3.11",
       "routePrefix": "/_/backend"
     }
   }
