@@ -1,6 +1,6 @@
 # GigProtect AI
 
-AI-powered parametric insurance platform for quick-commerce delivery partners (Blinkit, Zepto, Instamart).
+AI-powered parametric insurance platform that automatically compensates delivery partners for income loss caused by real-world disruptions.
 
 ## What This Build Demonstrates
 
